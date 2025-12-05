@@ -2,4 +2,4 @@
 ## Проект
 Этот репозиторий является каркасом для будущего веб-приложения.
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://github.com/Nitto0/my-project)
+- [Публичная страница на GitHub Pages](https://nitto0.github.io/my-project/)
