@@ -5,142 +5,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revo-Coffee</title>
     <link rel="icon" href="assets/icons/IC_coffee.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>Лучший кофе в Revo-Coffee</h1>
-        <img src="assets/img/banner.png" alt="Баннер главной страницы">
-        <nav>
-            <ul>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
-                <li><a href="#">Навигационная ссылка</a></li>
+    <header class="header">
+        <h1 class="header__title">Лучший кофе в Revo-Coffee</h1>
+        <img class="header__banner" src="assets/img/banner.png" alt="Баннер главной страницы">
+        
+        <nav class="header__nav nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#features">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#products">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#promo">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#catalog">Навигационная ссылка</a></li>
+                <li class="nav__item"><a class="nav__link" href="#footer">Навигационная ссылка</a></li>
             </ul>
         </nav>
     </header>
     
     <main>
-        <section>
-            <h2>Заголовок второго уровня</h2>
-            <div>
-                <article>
-                    <img src="assets/icons/mag.png" alt="Иконка кофейни">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Противоположная точка зрения подразумевает, что базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут функционально разнесены на&nbsp;независимые элементы. В&nbsp;целом, конечно, сплочённость команды профессионалов в&nbsp;значительной степени обусловливает важность поставленных обществом задач.</p>
+
+        <!-- FEATURES -->>
+        <section id="features" class="features">
+            <h2 class="features__title">Заголовок второго уровня</h2>
+            
+            <div class="features__list">
+                <article class="card">
+                    <img class="card__image" src="assets/icons/mag.png" alt="Иконка кофейни">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Противоположная точка зрения подразумевает, что базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут функционально разнесены на&nbsp;независимые элементы. В&nbsp;целом, конечно, сплочённость команды профессионалов в&nbsp;значительной степени обусловливает важность поставленных обществом задач.</p>
                 </article>
-                <article>
-                    <img src="assets/icons/IC_1.png" alt="Вывеска кофейни">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>С&nbsp;другой стороны, экономическая повестка сегодняшнего дня представляет собой интересный эксперимент проверки модели развития. Лишь элементы политического процесса, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали.</p>
+
+                <article class="card">
+                    <img class="card__image" src="assets/icons/IC_1.png" alt="Вывеска кофейни">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">С&nbsp;другой стороны, экономическая повестка сегодняшнего дня представляет собой интересный эксперимент проверки модели развития. Лишь элементы политического процесса, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали.</p>
                 </article>
-                <article>
-                    <img src="assets/icons/beans.png" alt="Кофейные напитки">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Значимость этих проблем настолько очевидна, что базовый вектор развития представляет собой интересный эксперимент проверки вывода текущих активов. Не&nbsp;следует, однако, забывать, что граница обучения кадров прекрасно подходит для реализации системы обучения кадров, соответствующей насущным потребностям.</p>
+
+                <article class="card">
+                    <img class="card__image" src="assets/icons/beans.png" alt="Кофейные напитки">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Значимость этих проблем настолько очевидна, что базовый вектор развития представляет собой интересный эксперимент проверки вывода текущих активов. Не&nbsp;следует, однако, забывать, что граница обучения кадров прекрасно подходит для реализации системы обучения кадров, соответствующей насущным потребностям.</p>
                 </article>
-                <article>
-                    <img src="assets/icons/coffee_machine.png" alt="Кофемашина">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Но&nbsp;тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а&nbsp;значит, должны быть заблокированы в&nbsp;рамках своих собственных рациональных ограничений. В&nbsp;своём стремлении улучшить пользовательский опыт мы&nbsp;упускаем, что независимые государства являются только методом политического участия и&nbsp;заблокированы в&nbsp;рамках своих собственных рациональных ограничений.</p>
+
+                <article class="card">
+                    <img class="card__image" src="assets/icons/coffee_machine.png" alt="Кофемашина">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Но&nbsp;тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а&nbsp;значит, должны быть заблокированы в&nbsp;рамках своих собственных рациональных ограничений. В&nbsp;своём стремлении улучшить пользовательский опыт мы&nbsp;упускаем, что независимые государства являются только методом политического участия и&nbsp;заблокированы в&nbsp;рамках своих собственных рациональных ограничений.</p>
                 </article>
             </div>
         </section>
 
-        <section>
-            <h2>Заголовок второго уровня</h2>
-            <div>
-                <article>
-                    <img src="assets/img/cofee_yellow.png" alt="Жёлтый кофе">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Предварительные выводы неутешительны: постоянное информационно-пропагандистское обеспечение нашей деятельности создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса благоприятных перспектив.</p>
-                    <button>Купить</button>
-                    <button>Информация</button>
-                </article>
-                <article>
-                    <img src="assets/img/cofee_blue.png" alt="Синий кофе">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>С&nbsp;учётом сложившейся международной обстановки, постоянный количественный рост и&nbsp;сфера нашей активности обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании глубокомысленных рассуждений.</p>
-                    <button>Купить</button>
-                    <button>Информация</button>
-                </article>
-                <article>
-                    <img src="assets/img/coffee_orange.png" alt="Оранжевый кофе">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Принимая во&nbsp;внимание показатели успешности, граница обучения кадров влечет за&nbsp;собой процесс внедрения и&nbsp;модернизации новых предложений.</p>
-                    <button>Купить</button>
-                    <button>Информация</button>
-                </article>
-                <article>
-                    <img src="assets/img/cofee_red.png" alt="Красный кофе">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>С&nbsp;учётом сложившейся международной обстановки, выбранный нами инновационный путь не&nbsp;оставляет шанса для поставленных обществом задач.</p>
-                    <button>Купить</button>
-                    <button>Информация</button>
-                </article>
-            </div>
-        </section>
-        
-        <section>
-            <h2>Заголовок второго уровня</h2>
-            <img src="assets/img/pr-0018-r.png" alt="">
-            <div>
-                <article>
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Прежде всего, консультация с&nbsp;широким активом не&nbsp;оставляет шанса для своевременного выполнения сверхзадачи. А&nbsp;также интерактивные прототипы, превозмогая сложившуюся непростую экономическую ситуацию, смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершенной неузнаваемости, из-за чего возрастает их&nbsp;статус бесполезности.</p>
+        <!-- PRODUCTS -->>
+        <section id="products" class="products">
+            <h2 class="products__title">Заголовок второго уровня</h2>
+            
+            <div class="products__list">
+                <article class="card">
+                    <img class="card__image" src="assets/img/cofee_yellow.png" alt="Жёлтый кофе">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Предварительные выводы неутешительны: постоянное информационно-пропагандистское обеспечение нашей деятельности создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса благоприятных перспектив.</p>
+                    <div class="card__actions">
+                        <button class="button button--primary">Купить</button>
+                        <button class="button button--secondary">Информация</button>
+                    </div>
                 </article>
 
-                <div>
-                    <img src="assets/icons/IC_coffee.png" alt="Кофейные зёрна">
-                    <p>В&nbsp;частности, сложившаяся структура организации позволяет оценить значение как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.</p>
-                </div>
+                <article class="card">
+                    <img class="card__image" src="assets/img/cofee_blue.png" alt="Синий кофе">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">С&nbsp;учётом сложившейся международной обстановки, постоянный количественный рост и&nbsp;сфера нашей активности обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании глубокомысленных рассуждений.</p>
+                    <div class="card__actions">
+                        <button class="button button--primary">Купить</button>
+                        <button class="button button--secondary">Информация</button>
+                    </div>
+                </article>
 
-                <div>
-                    <img src="assets/icons/IC_Mountain.png" alt="Иконка горы">
-                    <p>И&nbsp;нет сомнений, что независимые государства превращены в&nbsp;посмешище, хотя само их&nbsp;существование приносит несомненную пользу обществу.</p>
-                </div>
-
-                <div>
-                    <button>Купить</button>
-                </div>
-                <div>
-                    <button>Информация</button>
-                </div>
-            </div>
-        </section>
-        
-        <section>
-            <h2>Заголовок второго уровня</h2>
-            <div>
-                <article>
-                    <img src="assets/img/coffee_red_cup.png" alt="">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Задача организации, в&nbsp;особенности&nbsp;же выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании поэтапного и&nbsp;последовательного развития общества.</p>
-                    <button>Купить</button>
-                    <button>Информация</button>
+                <article class="card">
+                    <img class="card__image" src="assets/img/coffee_orange.png" alt="Оранжевый кофе">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Принимая во&nbsp;внимание показатели успешности, граница обучения кадров влечет за&nbsp;собой процесс внедрения и&nbsp;модернизации новых предложений.</p>
+                    <div class="card__actions">    
+                        <button class="button button--primary">Купить</button>
+                        <button class="button button--secondary">Информация</button>
+                    </div>
                 </article>
                 
-                <article>
-                    <img src="assets/img/coffee_blue_cup.png" alt="">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Противоположная точка зрения подразумевает, что сторонники тоталитаризма в&nbsp;науке будут объективно рассмотрены соответствующими инстанциями.</p>
-                    <button>Купить</button>
-                    <button>Информация</button>
+                <article class="card">
+                    <img class="card__image" src="assets/img/cofee_red.png" alt="Красный кофе">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">С&nbsp;учётом сложившейся международной обстановки, выбранный нами инновационный путь не&nbsp;оставляет шанса для поставленных обществом задач.</p>
+                    <div class="card__actions">    
+                        <button class="button button--primary">Купить</button>
+                        <button class="button button--secondary">Информация</button>
+                    </div>
                 </article>
-                <article>
-                    <img src="assets/img/cofee_orange_cup.png" alt="">
-                    <h3>Заголовок 3 уровня</h3>
-                    <p>Однозначно, элементы политического процесса неоднозначны и&nbsp;будут функционально разнесены на&nbsp;независимые элементы.</p>
-                    <button>Купить</button>
-                    <button>Информация</button>
+            </div>
+        </section>
+        
+        <!-- PROMO -->>
+        <section id="promo" class="promo">
+            <h2 class="promo__title">Заголовок второго уровня</h2>
+            <img class="promo__image" src="assets/img/pr-0018-r.png" alt="">
+            
+            <div class="promo__content">
+                <article class="promo__description">
+                    <h3 class="promo__subtitle">Заголовок 3 уровня</h3>
+                    <p class="promo__text">Прежде всего, консультация с&nbsp;широким активом не&nbsp;оставляет шанса для своевременного выполнения сверхзадачи. А&nbsp;также интерактивные прототипы, превозмогая сложившуюся непростую экономическую ситуацию, смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершенной неузнаваемости, из-за чего возрастает их&nbsp;статус бесполезности.</p>
+                </article>
+
+                <div class="promo__features">
+                    <div class="promo__feature">
+                        <img src="assets/icons/IC_coffee.png" alt="Кофейные зёрна">
+                        <p>В&nbsp;частности, сложившаяся структура организации позволяет оценить значение как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.</p>
+                    </div>
+
+                    <div class="promo__feature">
+                        <img src="assets/icons/IC_Mountain.png" alt="Иконка горы">
+                        <p>И&nbsp;нет сомнений, что независимые государства превращены в&nbsp;посмешище, хотя само их&nbsp;существование приносит несомненную пользу обществу.</p>
+                    </div>
+                </div>
+
+                <div class="promo__actions">
+                    <button class="button button--primary">Купить</button>
+                    <button class="button button--secondary">Информация</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CATALOG -->>
+        <section id="catalog" class="catalog">
+            <h2 class="catalog__title">Заголовок второго уровня</h2>
+            
+            <div class="catalog__list">
+                <article class="card">
+                    <img class="card__image" src="assets/img/coffee_red_cup.png" alt="">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Задача организации, в&nbsp;особенности&nbsp;же выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в&nbsp;формировании поэтапного и&nbsp;последовательного развития общества.</p>
+                    <div class="card__actions">    
+                        <button class="button button--primary">Купить</button>
+                        <button class="button button--secondary">Информация</button>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <img class="card__image" src="assets/img/coffee_blue_cup.png" alt="">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Противоположная точка зрения подразумевает, что сторонники тоталитаризма в&nbsp;науке будут объективно рассмотрены соответствующими инстанциями.</p>
+                    <div class="card__actions">    
+                        <button class="button button--primary">Купить</button>
+                        <button class="button button--secondary">Информация</button>
+                    </div>
+                </article>
+                
+                <article class="card">
+                    <img class="card__image" src="assets/img/cofee_orange_cup.png" alt="">
+                    <h3 class="card__title">Заголовок 3 уровня</h3>
+                    <p class="card__text">Однозначно, элементы политического процесса неоднозначны и&nbsp;будут функционально разнесены на&nbsp;независимые элементы.</p>
+                    <div class="card__actions">    
+                        <button class="button button--primary">Купить</button>
+                        <button class="button button--secondary">Информация</button>
+                    </div>
                 </article>
             </div>
         </section>
     </main>
-    <hr>
-    <footer>
-        <p>Являясь всего лишь частью общей картины, непосредственные участники технического прогресса будут обнародованы. Прежде всего, постоянное информационно-пропагандистское обеспечение нашей деятельности создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса вывода текущих активов.</p>
+
+    <footer id="footer" class="footer">
+        <p class="footer__text">Являясь всего лишь частью общей картины, непосредственные участники технического прогресса будут обнародованы. Прежде всего, постоянное информационно-пропагандистское обеспечение нашей деятельности создаёт необходимость включения в&nbsp;производственный план целого ряда внеочередных мероприятий с&nbsp;учётом комплекса вывода текущих активов.</p>
     </footer>
+
 </body>
 </html>
