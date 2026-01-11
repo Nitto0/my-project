@@ -107,3 +107,52 @@ img {
     padding: 2rem;
     text-align: center;
 }
+
+/* Ноутбуки (меньше 1200px) */
+@media (max-width: 1199px) {
+    .nav__list {
+        gap: 1rem;
+    }
+}
+
+/* Планшеты (меньше 992px) */
+@media (max-width: 991px) {
+    .features__list,
+    .products__list,
+    .catalog__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Мобильные в альбомной ориентации (меньше 768px) */
+@media (max-width: 767px) {
+    .nav__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .promo__actions,
+    .card__actions {
+        flex-direction: column;
+    }
+}
+
+/* Мобильные (меньше 576px) */
+@media (max-width: 575px) {
+    .features__list,
+    .products__list,
+    .catalog__list {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Очень маленькие экраны (меньше 400px) */
+@media (max-width: 399px) {
+    body {
+        font-size: 13px;
+    }
+}
